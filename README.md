@@ -5,8 +5,7 @@ Sorted Beacon List by RSSI, you can check UUID is correct or not.
 
 https://play.google.com/store/apps/details?id=youten.redo.ble.ibeacondetector
 
-![Figure 1 iBeacon not found.](screenshot1.png) 
-![Figure 2 iBeacon found.](screenshot2.png)
+![Figure 1 iBeacon found.](screenshot2.png)
 
 # License
 Apache License Version 2.0
