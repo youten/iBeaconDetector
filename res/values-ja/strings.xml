@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iBeaconDetector</string>
+    <string name="ble_not_supported">BLEはこのデバイスではサポートされていません。</string>
+    <string name="bt_not_supported">Bluetoothはこのデバイスではサポートされていません。</string>
+    <string name="bt_not_enabled">Bluetoothがoffになっているようです。onにしてください。</string>
+    <string name="label_ibeacon">This is iBeacon!</string>
+    <string name="label_not_ibeacon">This is not iBeacon.</string>
+    <!-- Scan -->
+    <string name="action_clear">CLEAR LIST</string>
+    <string name="action_scan">SCAN</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_dump">DUMP CSV</string>
+    <string name="action_license">LICENSE</string>
+    <!-- dialog -->
+    <string name="license_title">OSS LICENSE</string>
+    <string name="license_body">RadiusNetworks / android-ibeacon-service\nhttps://github.com/RadiusNetworks/android-ibeacon-service</string>
+    <!-- dump -->
+    <string name="dump_failed">CSVの書き込みに失敗しました。</string>
+    <string name="dump_succeeded_suffix">への書き込みに成功しました。</string>
+</resources>

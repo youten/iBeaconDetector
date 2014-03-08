@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    <TextView
+        android:id="@+id/device_rssi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/device_address"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/device_name"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/device_lastupdated"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/device_ibeacon_info"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/device_lastupdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/device_scanrecord"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/device_ibeacon_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+</RelativeLayout>

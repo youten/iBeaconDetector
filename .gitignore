@@ -1,0 +1,5 @@
+# for Android
+bin/
+gen/
+.DS_Store
+
