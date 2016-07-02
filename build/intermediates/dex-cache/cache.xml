@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/youten/work/android/iBeaconDetector/app/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/youten/work/android/iBeaconDetector/app/build/intermediates/pre-dexed/debug/commons-io-2.4-dc3824a9f0c4644c20d776bfce0cd63aeed5b7bd.jar" />
+    </item>
+
+</items>
